@@ -1,8 +1,8 @@
 {
-  "name": "KHAN-MD",
+  "name": "Podda-md",
   "description": "Javascript WhatsApp bot made by Jᴀᴡᴀᴅ TᴇᴄʜX",
   "logo": "https://raw.githubusercontent.com/JawadYTX/KHAN-DATA/refs/heads/main/logo/KHAN.png",
-  "keywords": ["KHAN-MD"],
+  "keywords": ["Podda-md"],
   "success_url": "/",
 
     "stack": "container",
