@@ -81,7 +81,7 @@ cmd({
     store.react('⬇️');
     let tiktokData = await downloadTiktok(q);
     let captionMessage = 
-      "╭━━━〔 *KHAN-MD* 〕━━━┈⊷\n" +
+      "╭━━━〔 *𝙿𝙾𝙳𝙳𝙰-MD* 〕━━━┈⊷\n" +
       "┃▸╭───────────\n" +
       "┃▸┃๏ *TIKTOK DOWNLOADER*\n" +
       "┃▸└───────────···๏\n" +
@@ -100,7 +100,7 @@ cmd({
       "┃▸┃๏ *3*     ┃  *Audio*\n" +
       "┃▸└────────────┈⊷\n" +
       "╰━━━━━━━━━━━━━━━⪼\n" +
-      "> *© Pᴏᴡᴇʀᴇᴅ Bʏ KʜᴀɴX-Aɪ ♡*";
+      "> *© Pᴏᴡᴇʀᴇᴅ Bʏ 𝖯𝑂𝐷𝐷𝐴-𝗠𝗗 ♡*";
 
     const sentMessage = await conn.sendMessage(from, {
       'image': { 'url': tiktokData.result.image },
@@ -476,7 +476,7 @@ cmd({
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *Powered By KhanX-AI*`;
+🔗 *Powered By 𝙿𝙾𝙳𝙳𝙰-𝙼𝙳*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
@@ -527,7 +527,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "*© Powered By JawadTechX*"
+        caption: "*© Powered By 𝙿𝙾𝙳𝙳𝙰-𝙼𝙳*"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
