@@ -18,7 +18,7 @@ cmd({
       return reply("*_Please give me a text._*");
     }
 
-    let responseText = `*🤍 KHAN-MD LOGO MAKER 💫*\n\n`
+    let responseText = `*🤍 𝑷𝑶𝑫𝑫𝑨-MD LOGO MAKER 💫*\n\n`
     + `╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼➻\n`
     + `*◈ Text:* ${q}\n`
     + `╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼➻\n\n`
