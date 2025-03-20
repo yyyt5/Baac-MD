@@ -133,12 +133,12 @@ cmd({
         if (userResponse === '1') {
           await conn.sendMessage(chatID, {
             'video': { 'url': downloadLinks.dl_link.download_mp4_1 },
-            'caption': "*© Powered BY JawadTechX*"
+            'caption': "*© Powered BY RandulTechX*"
           }, { 'quoted': receivedMessage });
         } else if (userResponse === '2') {
           await conn.sendMessage(chatID, {
             'video': { 'url': downloadLinks.dl_link.download_mp4_2 },
-            'caption': "*© Powered BY JawadTechX*"
+            'caption': "*© Powered BY RandulTechX*"
           }, { 'quoted': receivedMessage });
         } else if (userResponse === '3') {
           await conn.sendMessage(chatID, {
