@@ -49,15 +49,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7zfdcq.jpg` },
+                image: { url: `https://i.ibb.co/Z6b9TGn3/6686.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'JawadTechX',
+                        newsletterJid: '',
+                        newsletterName: '',
                         serverMessageId: 143
                     }
                 }
@@ -122,7 +122,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7zfdcq.jpg` },
+                image: { url: `https://i.ibb.co/vC32Z8yc/1633.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
